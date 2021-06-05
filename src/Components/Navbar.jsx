@@ -10,7 +10,7 @@ const Navbar = () => {
         </a>
       </div>
       <div>
-        <a className={classes.item} href="#>">
+        <a className={`${classes.item} ${classes.active}`} href="#>">
           {" "}
           Messages{" "}
         </a>
