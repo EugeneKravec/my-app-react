@@ -4,7 +4,7 @@ const Like = (props) => {
 
   return (
     <div>
-      <span>Likes</span> {props.likes}
+      <span>Likes {props.value}</span> 
     </div>
   );
 };

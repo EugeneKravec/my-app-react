@@ -14,9 +14,9 @@ const MyPosts = () => {
 
       <div className = {classes.posts}>
         <Post message="Hi, how are you?" />
-        <Like likes = '- 23'/>
+        <Like value = '- 23'/>
         <Post message ="it's, my new post?" />
-        <Like likes = '- 12223'/>
+        <Like value = '- 12223'/>
         {/* <Post />
       <Post />
       <Post /> */}
