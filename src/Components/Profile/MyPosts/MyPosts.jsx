@@ -1,5 +1,6 @@
 import classes from "./MyPosts.module.css";
 import Post from "./Post/Post";
+import Like from "./Post/Like";
 
 const MyPosts = () => {
   return (
@@ -13,7 +14,9 @@ const MyPosts = () => {
 
       <div className = {classes.posts}>
         <Post message="Hi, how are you?" />
-        <Post message="it's, my new post?" />
+        <Like likes = '- 23'/>
+        <Post message ="it's, my new post?" />
+        <Like likes = '- 12223'/>
         {/* <Post />
       <Post />
       <Post /> */}
