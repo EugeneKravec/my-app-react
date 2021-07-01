@@ -1,4 +1,4 @@
-import classes from "./Like.module.css";
+// import classes from "./Like.module.css";
 
 const Like = (props) => {
 
