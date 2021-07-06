@@ -3,9 +3,11 @@
   background-color: green;
 }
 
-.item {
-  color: aliceblue;
+.item a {
+  color: #ffffff;
+  padding-left: 20px;
+  text-decoration: none;
 }
-.item.active {
-  color: gold;
+.item a.activeLink {
+  color: #ffd700;
 }
