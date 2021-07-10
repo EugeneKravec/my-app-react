@@ -7,8 +7,8 @@
     padding: 10px;
 }
 
-.active {
-    color: #fffff;
+.dialogsItems .active {
+    color: gold;
 }
 
 .messages {
