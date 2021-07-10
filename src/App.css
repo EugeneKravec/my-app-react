@@ -11,5 +11,5 @@
 
 .wrapper-content {
   grid-area: c;
-  background-color: blue;
+  background-color: rgba(163, 161, 31, 0.705);
 }
